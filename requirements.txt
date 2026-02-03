@@ -1,0 +1,14 @@
+# League of Legends Dashboard - Python Dependencies
+# Install with: pip install -r requirements.txt
+# Or use uv: uv sync
+
+sqlalchemy>=2.0
+riotwatcher
+python-dotenv
+pandas
+requests
+scipy
+matplotlib>=3.10.8
+jupyter>=1.1.1
+seaborn>=0.13.2
+numpy
