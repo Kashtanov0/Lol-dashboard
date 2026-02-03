@@ -73,7 +73,7 @@ The dashboard provides comprehensive champion performance analysis including:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Kashtanov0/lol-dashboard-v3.git
+   git clone https://github.com/Kashtanov0/Lol-dashboard.git
    cd lol-dashboard-v3
    ```
 
