@@ -5,11 +5,11 @@
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![Tableau](https://img.shields.io/badge/Tableau-Public-orange.svg)](https://public.tableau.com/)
 
-## 🔗 Live Dashboard
+##  Live Dashboard
 
 **[→ View Interactive Tableau Dashboard](https://public.tableau.com/shared/ZFJX7SQ4S?:display_count=n&:origin=viz_share_link)**
 
-## 📋 Project Overview
+##  Project Overview
 
 This project implements a complete data analytics pipeline that:
 1. **Extracts** player match data from the Riot Games API
@@ -25,7 +25,7 @@ The dashboard provides comprehensive champion performance analysis including:
 - Multi-player comparison capabilities
 - Anomaly detection for standout performances
 
-## 🎯 Key Features
+##  Key Features
 
 - **Automated Data Extraction**: Fetches match history for multiple players via Riot Games API
 - **Multi-Player Tracking**: Monitors performance across 4+ players simultaneously
@@ -34,7 +34,7 @@ The dashboard provides comprehensive champion performance analysis including:
 - **Interactive Visualization**: Tableau dashboard with player filters and drill-down capabilities
 - **Scalable Pipeline**: Modular architecture for easy extension and maintenance
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -46,7 +46,7 @@ The dashboard provides comprehensive champion performance analysis including:
 | **Visualization** | Tableau Public |
 | **Package Manager** | uv |
 
-## 📊 Dashboard Highlights
+##  Dashboard Highlights
 
 ### Sheet 1: Top 5 Champions Performance
 - Champion icons and names
@@ -61,7 +61,7 @@ The dashboard provides comprehensive champion performance analysis including:
 - Champion pool diversity (treemap)
 - Performance metrics overview
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -120,7 +120,7 @@ This executes three steps:
 - `anomalies.csv` - Exceptional game performances
 - `player_insights.csv` - Automated performance insights
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lol_dashboard_v3/
@@ -143,7 +143,7 @@ lol_dashboard_v3/
 └── lol_dashboard.db        # SQLite database (generated)
 ```
 
-## 🔍 Data Pipeline Details
+##  Data Pipeline Details
 
 ### 1. Data Extraction (`extract.py`)
 
@@ -179,7 +179,7 @@ lol_dashboard_v3/
 - Includes champion icons and profile images (URLs)
 - Maintains data relationships for joins
 
-## 📈 Key Insights Generated
+##  Key Insights Generated
 
 The dashboard answers questions like:
 - Which champions do I perform best with?
@@ -188,7 +188,7 @@ The dashboard answers questions like:
 - Which games were statistical outliers?
 - How do I compare to other tracked players?
 
-## 🎨 Tableau Dashboard Features
+##  Tableau Dashboard Features
 
 - **Interactive Filters**: Select individual players to view their stats
 - **Champion Icons**: Visual representation using Riot CDN images
@@ -208,7 +208,7 @@ MATCH_COUNT = 50             # Matches to fetch per player
 ANOMALY_THRESHOLD = 2.5      # Z-score threshold for anomalies
 ```
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Dashboard Overview
 ![Dashboard Overview](screenshots/dashboard_overview.png)
@@ -219,39 +219,8 @@ ANOMALY_THRESHOLD = 2.5      # Z-score threshold for anomalies
 ### Champion Pool Treemap
 ![Treemap](screenshots/treemap.png)
 
-
-## 🚧 Future Enhancements
-
-- [ ] Real-time data updates via scheduled jobs
-- [ ] Predictive modeling for win rate forecasting
-- [ ] Champion recommendation system based on performance
-- [ ] Team composition analysis
-- [ ] Rank progression tracking
-- [ ] Web interface for configuration
-- [ ] Docker containerization
-- [ ] CI/CD pipeline with GitHub Actions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-## 🙏 Acknowledgments
-
-- [Riot Games API](https://developer.riotgames.com/) for providing access to League of Legends data
-- [RiotWatcher](https://github.com/pseudonym117/Riot-Watcher) Python library for API wrapper
-- [Tableau Public](https://public.tableau.com/) for free visualization platform
-
-## 👤 Author
+##  Author
 
 **Lev Antokolskiy**
 - GitHub: [@Kashtanov0](https://github.com/Kashtanov0/)
 - LinkedIn: [Lev Antokolskiy](https://www.linkedin.com/in/kashtanov0/)
-
-## 📧 Contact
-
-For questions or feedback, please open an issue or reach out via [gmail](mailto:datrengar1@gmail.com)
-
----
-
-⭐ If you found this project helpful, please consider giving it a star!
